@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2108081FC54BA60097B856 /* MoveAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2108071FC54BA60097B856 /* MoveAnimationViewController.m */; };
+		5D21080B1FC558E00097B856 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21080A1FC558E00097B856 /* RotationViewController.m */; };
+		5D21080E1FC5629D0097B856 /* RotationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21080D1FC5629D0097B856 /* RotationCollectionViewCell.m */; };
+		5D2108111FC596050097B856 /* KeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2108101FC596050097B856 /* KeyFrameViewController.m */; };
 		5DB2F2F21F67853700293CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F2F11F67853700293CEC /* main.m */; };
 		5DB2F2F51F67853700293CEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F2F41F67853700293CEC /* AppDelegate.m */; };
 		5DB2F2F81F67853700293CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F2F71F67853700293CEC /* ViewController.m */; };
@@ -19,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D2108061FC54BA60097B856 /* MoveAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveAnimationViewController.h; sourceTree = "<group>"; };
+		5D2108071FC54BA60097B856 /* MoveAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveAnimationViewController.m; sourceTree = "<group>"; };
+		5D2108091FC558E00097B856 /* RotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		5D21080A1FC558E00097B856 /* RotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		5D21080C1FC5629D0097B856 /* RotationCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationCollectionViewCell.h; sourceTree = "<group>"; };
+		5D21080D1FC5629D0097B856 /* RotationCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationCollectionViewCell.m; sourceTree = "<group>"; };
+		5D21080F1FC596050097B856 /* KeyFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyFrameViewController.h; sourceTree = "<group>"; };
+		5D2108101FC596050097B856 /* KeyFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyFrameViewController.m; sourceTree = "<group>"; };
 		5DB2F2ED1F67853700293CEC /* TL_AnimationCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TL_AnimationCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB2F2F11F67853700293CEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DB2F2F31F67853700293CEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +85,14 @@
 				5DB2F2F91F67853700293CEC /* Main.storyboard */,
 				5DB2F30A1F67876000293CEC /* TableViewController.h */,
 				5DB2F30B1F67876000293CEC /* TableViewController.m */,
+				5D2108061FC54BA60097B856 /* MoveAnimationViewController.h */,
+				5D2108071FC54BA60097B856 /* MoveAnimationViewController.m */,
+				5D2108091FC558E00097B856 /* RotationViewController.h */,
+				5D21080A1FC558E00097B856 /* RotationViewController.m */,
+				5D21080C1FC5629D0097B856 /* RotationCollectionViewCell.h */,
+				5D21080D1FC5629D0097B856 /* RotationCollectionViewCell.m */,
+				5D21080F1FC596050097B856 /* KeyFrameViewController.h */,
+				5D2108101FC596050097B856 /* KeyFrameViewController.m */,
 				5DB2F30D1F679E8000293CEC /* Animation.h */,
 				5DB2F30E1F679E8000293CEC /* Animation.m */,
 				5DB2F2FF1F67853700293CEC /* Assets.xcassets */,
@@ -164,8 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2108111FC596050097B856 /* KeyFrameViewController.m in Sources */,
 				5DB2F2FE1F67853700293CEC /* TL_AnimationCell.xcdatamodeld in Sources */,
+				5D2108081FC54BA60097B856 /* MoveAnimationViewController.m in Sources */,
+				5D21080B1FC558E00097B856 /* RotationViewController.m in Sources */,
 				5DB2F2F81F67853700293CEC /* ViewController.m in Sources */,
+				5D21080E1FC5629D0097B856 /* RotationCollectionViewCell.m in Sources */,
 				5DB2F30F1F679E8000293CEC /* Animation.m in Sources */,
 				5DB2F2F51F67853700293CEC /* AppDelegate.m in Sources */,
 				5DB2F30C1F67876000293CEC /* TableViewController.m in Sources */,
@@ -328,6 +352,7 @@
 				5DB2F3091F67853700293CEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

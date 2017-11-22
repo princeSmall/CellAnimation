@@ -8,10 +8,14 @@
 
 #import "TableViewController.h"
 #import "Animation.h"
+#import "MoveAnimationViewController.h"
+#import "RotationViewController.h"
+#import "KeyFrameViewController.h"
 
 @interface TableViewController (){
     NSInteger cellNumber;
 }
+@property (nonatomic,strong)NSArray * animationArray;
 
 @end
 
@@ -23,7 +27,12 @@
     [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     [self performSelector:@selector(cellAnimation:) withObject:nil afterDelay:0.5];
 }
-
+- (NSArray *)animationArray{
+    if (_animationArray == nil) {
+        _animationArray = [NSArray arrayWithObjects:@"MoveAnimationShow",@"RotationAnimationShow",@"KeyFrameAnimationShow", nil];
+    }
+    return _animationArray;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -52,11 +61,28 @@
     [cell.contentView addSubview:view];
     cell.contentView.backgroundColor = [UIColor clearColor];
     cell.backgroundColor = [UIColor clearColor];
+    if (indexPath.row == 0) {
+        UILabel * label = [[UILabel alloc]initWithFrame:view.frame];
+        label.textColor = [UIColor blackColor];
+        label.text = self.animationArray[indexPath.row];
+        label.textAlignment = NSTextAlignmentCenter;
+        [view addSubview:label];
+    }
+  
     
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [self.tableView deselectRowAtIndexPath:indexPath animated:NO];
+    if (indexPath.row == 0) {
+        MoveAnimationViewController * moveVC = [[MoveAnimationViewController alloc]init];
+        [self.navigationController pushViewController:moveVC animated:YES];
+    }else if (indexPath.row ==1){
+        RotationViewController * rotationVC = [[RotationViewController alloc]init];
+        [self.navigationController pushViewController:rotationVC animated:YES];
+    }else if (indexPath.row == 2){
+        KeyFrameViewController * keyFrameVC = [[KeyFrameViewController alloc]init];
+        [self.navigationController pushViewController:keyFrameVC animated:YES];
+    }
 }
 -(void)cellAnimation:(UITableView *)tableView {
     cellNumber = 10;
@@ -64,59 +90,4 @@
     tableView = self.tableView;
     [Animation addAnimationWithTableView:tableView andRow:self.type];
 }
-
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
-}
-*/
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end
