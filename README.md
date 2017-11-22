@@ -1,4 +1,4 @@
-![CellAnimation](GIF/CellAnimation.gif)
+![CellAnimation](GIF/AnimationView.gif)
 
 ### 使用：
 导入Animation类，直接用类调用,输入要动画的tableview和动画type，即可

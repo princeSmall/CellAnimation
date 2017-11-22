@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D2108081FC54BA60097B856 /* MoveAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2108071FC54BA60097B856 /* MoveAnimationViewController.m */; };
-		5D21080B1FC558E00097B856 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21080A1FC558E00097B856 /* RotationViewController.m */; };
-		5D21080E1FC5629D0097B856 /* RotationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21080D1FC5629D0097B856 /* RotationCollectionViewCell.m */; };
-		5D2108111FC596050097B856 /* KeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2108101FC596050097B856 /* KeyFrameViewController.m */; };
+		5D21084A1FC59F570097B856 /* MoveAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21083B1FC59F570097B856 /* MoveAnimationViewController.m */; };
+		5D21084B1FC59F570097B856 /* KeyFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21083F1FC59F570097B856 /* KeyFrameViewController.m */; };
+		5D21084C1FC59F570097B856 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2108421FC59F570097B856 /* RotationViewController.m */; };
+		5D21084D1FC59F570097B856 /* RotationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2108431FC59F570097B856 /* RotationCollectionViewCell.m */; };
+		5D21084E1FC59F570097B856 /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2108481FC59F570097B856 /* Animation.m */; };
+		5D21084F1FC59F570097B856 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2108491FC59F570097B856 /* TableViewController.m */; };
 		5DB2F2F21F67853700293CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F2F11F67853700293CEC /* main.m */; };
 		5DB2F2F51F67853700293CEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F2F41F67853700293CEC /* AppDelegate.m */; };
 		5DB2F2F81F67853700293CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F2F71F67853700293CEC /* ViewController.m */; };
@@ -18,19 +20,21 @@
 		5DB2F2FE1F67853700293CEC /* TL_AnimationCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F2FC1F67853700293CEC /* TL_AnimationCell.xcdatamodeld */; };
 		5DB2F3001F67853700293CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2F2FF1F67853700293CEC /* Assets.xcassets */; };
 		5DB2F3031F67853700293CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB2F3011F67853700293CEC /* LaunchScreen.storyboard */; };
-		5DB2F30C1F67876000293CEC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F30B1F67876000293CEC /* TableViewController.m */; };
-		5DB2F30F1F679E8000293CEC /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2F30E1F679E8000293CEC /* Animation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5D2108061FC54BA60097B856 /* MoveAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveAnimationViewController.h; sourceTree = "<group>"; };
-		5D2108071FC54BA60097B856 /* MoveAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveAnimationViewController.m; sourceTree = "<group>"; };
-		5D2108091FC558E00097B856 /* RotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
-		5D21080A1FC558E00097B856 /* RotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
-		5D21080C1FC5629D0097B856 /* RotationCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationCollectionViewCell.h; sourceTree = "<group>"; };
-		5D21080D1FC5629D0097B856 /* RotationCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationCollectionViewCell.m; sourceTree = "<group>"; };
-		5D21080F1FC596050097B856 /* KeyFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyFrameViewController.h; sourceTree = "<group>"; };
-		5D2108101FC596050097B856 /* KeyFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyFrameViewController.m; sourceTree = "<group>"; };
+		5D21083B1FC59F570097B856 /* MoveAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveAnimationViewController.m; sourceTree = "<group>"; };
+		5D21083C1FC59F570097B856 /* MoveAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveAnimationViewController.h; sourceTree = "<group>"; };
+		5D21083E1FC59F570097B856 /* KeyFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameViewController.h; sourceTree = "<group>"; };
+		5D21083F1FC59F570097B856 /* KeyFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameViewController.m; sourceTree = "<group>"; };
+		5D2108411FC59F570097B856 /* RotationCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationCollectionViewCell.h; sourceTree = "<group>"; };
+		5D2108421FC59F570097B856 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
+		5D2108431FC59F570097B856 /* RotationCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationCollectionViewCell.m; sourceTree = "<group>"; };
+		5D2108441FC59F570097B856 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		5D2108461FC59F570097B856 /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		5D2108471FC59F570097B856 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		5D2108481FC59F570097B856 /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		5D2108491FC59F570097B856 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		5DB2F2ED1F67853700293CEC /* TL_AnimationCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TL_AnimationCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB2F2F11F67853700293CEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DB2F2F31F67853700293CEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,10 +46,6 @@
 		5DB2F2FF1F67853700293CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DB2F3021F67853700293CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DB2F3041F67853700293CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DB2F30A1F67876000293CEC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		5DB2F30B1F67876000293CEC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		5DB2F30D1F679E8000293CEC /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
-		5DB2F30E1F679E8000293CEC /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D21083A1FC59F570097B856 /* Animation动画 */ = {
+			isa = PBXGroup;
+			children = (
+				5D21083C1FC59F570097B856 /* MoveAnimationViewController.h */,
+				5D21083B1FC59F570097B856 /* MoveAnimationViewController.m */,
+			);
+			path = "Animation动画";
+			sourceTree = "<group>";
+		};
+		5D21083D1FC59F570097B856 /* KeyFrame动画 */ = {
+			isa = PBXGroup;
+			children = (
+				5D21083E1FC59F570097B856 /* KeyFrameViewController.h */,
+				5D21083F1FC59F570097B856 /* KeyFrameViewController.m */,
+			);
+			path = "KeyFrame动画";
+			sourceTree = "<group>";
+		};
+		5D2108401FC59F570097B856 /* Transition动画 */ = {
+			isa = PBXGroup;
+			children = (
+				5D2108411FC59F570097B856 /* RotationCollectionViewCell.h */,
+				5D2108431FC59F570097B856 /* RotationCollectionViewCell.m */,
+				5D2108441FC59F570097B856 /* RotationViewController.h */,
+				5D2108421FC59F570097B856 /* RotationViewController.m */,
+			);
+			path = "Transition动画";
+			sourceTree = "<group>";
+		};
+		5D2108451FC59F570097B856 /* TableViewCell动画 */ = {
+			isa = PBXGroup;
+			children = (
+				5D2108461FC59F570097B856 /* Animation.h */,
+				5D2108481FC59F570097B856 /* Animation.m */,
+				5D2108471FC59F570097B856 /* TableViewController.h */,
+				5D2108491FC59F570097B856 /* TableViewController.m */,
+			);
+			path = "TableViewCell动画";
+			sourceTree = "<group>";
+		};
 		5DB2F2E41F67853700293CEC = {
 			isa = PBXGroup;
 			children = (
@@ -78,23 +118,15 @@
 		5DB2F2EF1F67853700293CEC /* TL_AnimationCell */ = {
 			isa = PBXGroup;
 			children = (
+				5D21083A1FC59F570097B856 /* Animation动画 */,
+				5D21083D1FC59F570097B856 /* KeyFrame动画 */,
+				5D2108451FC59F570097B856 /* TableViewCell动画 */,
+				5D2108401FC59F570097B856 /* Transition动画 */,
 				5DB2F2F31F67853700293CEC /* AppDelegate.h */,
 				5DB2F2F41F67853700293CEC /* AppDelegate.m */,
 				5DB2F2F61F67853700293CEC /* ViewController.h */,
 				5DB2F2F71F67853700293CEC /* ViewController.m */,
 				5DB2F2F91F67853700293CEC /* Main.storyboard */,
-				5DB2F30A1F67876000293CEC /* TableViewController.h */,
-				5DB2F30B1F67876000293CEC /* TableViewController.m */,
-				5D2108061FC54BA60097B856 /* MoveAnimationViewController.h */,
-				5D2108071FC54BA60097B856 /* MoveAnimationViewController.m */,
-				5D2108091FC558E00097B856 /* RotationViewController.h */,
-				5D21080A1FC558E00097B856 /* RotationViewController.m */,
-				5D21080C1FC5629D0097B856 /* RotationCollectionViewCell.h */,
-				5D21080D1FC5629D0097B856 /* RotationCollectionViewCell.m */,
-				5D21080F1FC596050097B856 /* KeyFrameViewController.h */,
-				5D2108101FC596050097B856 /* KeyFrameViewController.m */,
-				5DB2F30D1F679E8000293CEC /* Animation.h */,
-				5DB2F30E1F679E8000293CEC /* Animation.m */,
 				5DB2F2FF1F67853700293CEC /* Assets.xcassets */,
 				5DB2F3011F67853700293CEC /* LaunchScreen.storyboard */,
 				5DB2F3041F67853700293CEC /* Info.plist */,
@@ -184,15 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2108111FC596050097B856 /* KeyFrameViewController.m in Sources */,
+				5D21084A1FC59F570097B856 /* MoveAnimationViewController.m in Sources */,
 				5DB2F2FE1F67853700293CEC /* TL_AnimationCell.xcdatamodeld in Sources */,
-				5D2108081FC54BA60097B856 /* MoveAnimationViewController.m in Sources */,
-				5D21080B1FC558E00097B856 /* RotationViewController.m in Sources */,
+				5D21084E1FC59F570097B856 /* Animation.m in Sources */,
+				5D21084F1FC59F570097B856 /* TableViewController.m in Sources */,
 				5DB2F2F81F67853700293CEC /* ViewController.m in Sources */,
-				5D21080E1FC5629D0097B856 /* RotationCollectionViewCell.m in Sources */,
-				5DB2F30F1F679E8000293CEC /* Animation.m in Sources */,
+				5D21084C1FC59F570097B856 /* RotationViewController.m in Sources */,
 				5DB2F2F51F67853700293CEC /* AppDelegate.m in Sources */,
-				5DB2F30C1F67876000293CEC /* TableViewController.m in Sources */,
+				5D21084B1FC59F570097B856 /* KeyFrameViewController.m in Sources */,
+				5D21084D1FC59F570097B856 /* RotationCollectionViewCell.m in Sources */,
 				5DB2F2F21F67853700293CEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
